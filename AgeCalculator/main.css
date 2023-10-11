@@ -1,0 +1,42 @@
+.h{
+    color: cornsilk;
+    text-decoration: solid;
+    
+}
+
+.main{
+    background-color: palevioletred;
+    width:400px;
+    border:10px solid burlywood;
+    padding: 30px;
+    margin-left: 400px;
+    margin-top:100px;
+    height: 200px;
+    text-align: center;
+
+}
+.button{
+    background-color: plum;
+    text-align: center;
+    font-size: medium;
+    font-family: "Lucida Sans";
+    font-style: italic;
+    color:maroon;
+    width: 100px;
+    height: 30px;     
+}
+.label{
+    font-family: "Lucida Sans";
+    font-style:italic;
+    font-size: large;
+    color: darkblue;
+    text-decoration-style: double;
+}
+
+#age{
+    font-size:larger ;
+    font-style:italic;
+    color:crimson;
+    font-weight: bold;
+    font-family:"Lucida Sans";
+}
