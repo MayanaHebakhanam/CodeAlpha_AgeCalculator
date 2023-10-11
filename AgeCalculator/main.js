@@ -19,8 +19,11 @@ function calculateAge(){
     var dobMonth=dateOfBirth.getMonth();
 
     var newYear,newMonth,newDay;
-
-    // Get age in years
+    if(enteredDate=="" || enteredDate==null){
+        document.getElementById("age").innerHTML="Please enter your Date Of Birth."
+    }
+    else{
+         // Get age in years
     newYear= currentYear - dobYear;
 
     // Get age in months
@@ -68,5 +71,6 @@ function calculateAge(){
           else ageValue= "Welcome to the world..!";   
           return  document.getElementById("age").innerHTML="Your age is: "+ ageValue;
 
-
     }
+
+       }
